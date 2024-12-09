@@ -1,5 +1,5 @@
 // import React \/
-import React,{ useState } from React;
+import React,{useState} from React;
 
 /* basic login page
 will be iterated upon after MVP
@@ -8,11 +8,11 @@ will be iterated upon after MVP
 function loginPage() {
     const [username,setUsername] = useState('');
     const [password,setPassword] = useState('');
-};
 
 // logic for authentication (call api)
-const handleLogin = () => {
-    alert('logged in! splendid');
+    const handleLogin = () => {
+        alert('logged in! splendid');
+    };
 };
 
 /* creates input fields for username and password
