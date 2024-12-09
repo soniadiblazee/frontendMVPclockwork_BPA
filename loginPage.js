@@ -10,10 +10,15 @@ function loginPage() {
     const [password,setPassword] = useState('');
 };
 
-// *logic for authentication (call api)
+// logic for authentication (call api)
 const handleLogin = () => {
     alert('logged in! splendid');
 };
+
+/* creates input fields for username and password
+creates a 'submit' button; handles form submission and trigger login proccess
+HELPFUL: useState stores values of username and password fields
+*/
 
 return (
     <div>
