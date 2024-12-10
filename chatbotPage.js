@@ -18,4 +18,17 @@ function chatbotPage() {
                     <div key={index}>
                         <p><strong>You:</strong> {chat.user}</p>
                         <p><strong>You:</strong> {chat.bot}</p>
+                    </div>
+                ))}
+                </div>
+                <input
+                    type="text"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    />
+                    <button onClick={sendMessage}>Send</button>
+                </div>
+    );
+}
 
+export default chatbotPage;
