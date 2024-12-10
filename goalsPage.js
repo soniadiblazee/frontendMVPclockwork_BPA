@@ -2,8 +2,7 @@
 import React from react;
 
 /* basic page for (user-made)goals
-will be iterated upon after MVP
-*/
+will be iterated upon after MVP */
 
 function goalsPage() {
     const[goal,setGoal] = useState('');
@@ -15,8 +14,7 @@ function goalsPage() {
     };
 
 /* makes an input field for putting a goal
-makes a button 'add goal' to trigger the addGoal function to, well, add the goal
-*/
+makes a button 'add goal' to trigger the addGoal function to, well, add the goal */
 
     return (
         <div>
@@ -34,4 +32,4 @@ makes a button 'add goal' to trigger the addGoal function to, well, add the goal
 }
 
 export default goalsPage();
-//export default so this code can be used in other places
+//export default so this code can be used in other files

@@ -2,8 +2,7 @@
 import React,{useState} from React;
 
 /* basic login page
-will be iterated upon after MVP
-*/
+will be iterated upon after MVP */
 
 function loginPage() {
     const [username,setUsername] = useState('');
@@ -17,8 +16,7 @@ function loginPage() {
 
 /* creates input fields for username and password
 creates a 'submit' button; handles form submission and trigger login proccess
-HELPFUL: useState stores values of username and password fields
-*/
+HELPFUL: useState stores values of username and password fields */
 
     return (
      <div>
@@ -42,4 +40,6 @@ HELPFUL: useState stores values of username and password fields
         </form>
     </div>
 );
+
 export default loginPage;
+//export default so this code can be used in other files
