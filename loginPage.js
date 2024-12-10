@@ -20,24 +20,24 @@ creates a 'submit' button; handles form submission and trigger login proccess
 HELPFUL: useState stores values of username and password fields
 */
 
-return (
-    <div>
+    return (
+     <div>
         <h1>Login</h1>
-        <form onSubmit={(e) => e.preventDefault()}>
-            <input
-            type="text"
-            placeholder="username"
-            value={username}
-            onChange={(e) => setUsername(e.targetValue)}
+            <form onSubmit={(e) => e.preventDefault()}>
+             <input
+                type="text"
+                placeholder="username"
+                value={username}
+                onChange={(e) => setUsername(e.targetValue)}
             />
             <input
-            type="password"
-            placeholder="password"
-            value={password}
-            onChange={(e) => setPassword(e.targetValue)}
+                type="password"
+                placeholder="password"
+                value={password}
+            o   nChange={(e) => setPassword(e.targetValue)}
             />
             <button type="submit" onClick={handleLogin}>
-            Login
+                Login
             </button>
         </form>
     </div>
