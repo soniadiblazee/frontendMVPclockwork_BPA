@@ -1,9 +1,6 @@
 // import React \/
 import React,{useState} from React;
 
-/* basic login page
-will be iterated upon after MVP */
-
 function loginPage() {
     const [username,setUsername] = useState('');
     const [password,setPassword] = useState('');

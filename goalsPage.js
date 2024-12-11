@@ -1,9 +1,6 @@
 // import react \/
 import React from react;
 
-/* basic page for (user-made)goals
-will be iterated upon after MVP */
-
 function goalsPage() {
     const[goal,setGoal] = useState('');
 

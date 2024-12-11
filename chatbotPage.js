@@ -1,6 +1,7 @@
 // import React \/
 import React,{useState} from React;
 
+// handles sending messages
 function chatbotPage() {
     const [message,setMessage] = useState('')
     const [chatHistory,setChatHistory] = useState('')
@@ -10,6 +11,7 @@ function chatbotPage() {
         setMessage('');
     };
 
+// chat boxes for sending a message, and the AI's message
     return (
         <div>
             <h1>Chatbot</h1>
@@ -30,5 +32,5 @@ function chatbotPage() {
                 </div>
     );
 }
-
 export default chatbotPage;
+//export default so this code can be used in other filess
