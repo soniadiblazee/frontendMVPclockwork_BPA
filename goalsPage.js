@@ -1,7 +1,7 @@
 // import react \/
 import React from react;
 
-function goalsPage() {
+function GoalsPage() {
     const[goal,setGoal] = useState('');
 
 // logic to add a goal (would likely save to an API)
@@ -28,5 +28,5 @@ makes a button 'add goal' to trigger the addGoal function to, well, add the goal
     );
 }
 
-export default goalsPage();
+export default GoalsPage();
 //export default so this code can be used in other files

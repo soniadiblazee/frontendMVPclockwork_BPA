@@ -1,7 +1,7 @@
 // import React \/
 import React,{useState} from React;
 
-function loginPage() {
+function LoginPage() {
     const [username,setUsername] = useState('');
     const [password,setPassword] = useState('');
 
@@ -38,5 +38,5 @@ HELPFUL: useState stores values of username and password fields */
     </div>
 );
 
-export default loginPage;
+export default LoginPage;
 //export default so this code can be used in other files

@@ -10,7 +10,7 @@ import {Chart as chartjs, categoryScale, linearScale, pointElement, lineElement,
 over twelve months. the function chartsPage includes the months as labels,
 and a dataset to display the progress over time */
 
-function chartsPage() {
+function ChartsPage() {
     const data = {
         label: ['january','february','march','april','may','june','july','august','september','october','november','december'],
         datasets: [
@@ -32,5 +32,5 @@ function chartsPage() {
     );
 }
 
-export default chartsPage;
+export default ChartsPage;
 //export default so this code can be used in other files

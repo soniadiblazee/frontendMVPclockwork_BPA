@@ -2,7 +2,7 @@
 import React,{useState} from React;
 
 // handles sending messages
-function chatbotPage() {
+function ChatbotPage() {
     const [message,setMessage] = useState('')
     const [chatHistory,setChatHistory] = useState('')
 
@@ -32,5 +32,5 @@ function chatbotPage() {
                 </div>
     );
 }
-export default chatbotPage;
+export default ChatbotPage;
 //export default so this code can be used in other filess

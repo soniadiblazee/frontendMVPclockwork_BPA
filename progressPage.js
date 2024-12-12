@@ -4,7 +4,7 @@ import React from 'react';
 /* not fully implimented UI.
 will display goal progress */
 
-function progressPage() {
+function ProgressPage() {
     return (
         <div>
             <h1>Your Progress</h1>
@@ -14,5 +14,5 @@ function progressPage() {
     );
 }
 
-export default progressPage;
+export default ProgressPage;
 //export default so this code can be used in other files

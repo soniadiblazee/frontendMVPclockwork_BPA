@@ -5,7 +5,7 @@ import React from react;
 two achivements are here as examples of what kinds of achivements could be available
  more achivements can be added */
 
-function achivementsPage () {
+function AchivementsPage () {
     return (
         <div>
             <h1>Your Achivements</h1>
@@ -18,5 +18,5 @@ function achivementsPage () {
     )
 };
 
-export default achivementsPage
+export default AchivementsPage
 //export default so this code can be used in other files
